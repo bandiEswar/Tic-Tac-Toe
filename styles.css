@@ -1,0 +1,37 @@
+body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 20px;
+    width: 600px;
+    left: 100px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+   border: 2px solid black;
+   position: absolute;
+}
+section{
+    background-color: rgb(105, 235, 127);
+    text-align: center;
+    padding: 50px;
+}
+.game-container{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hwb(228 29% 7%);
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 310px;
+    margin: 0px auto;
+}
+.cell{
+    font-family: "perminent marker" ,cursive;
+    width: 100px;
+    height:100px;
+    border: 2px solid black;
+}
